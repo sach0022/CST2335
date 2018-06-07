@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WeatherForecast">
+
+    <ProgressBar
+        android:id="@+id/bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/weath"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="35dp" />
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Temperature  :"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/miniTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimum Temperature :  " />
+
+    <TextView
+        android:id="@+id/maxTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maximum Temperature :  " />
+
+    <TextView
+        android:id="@+id/windSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wind Speed :  " />
+
+</LinearLayout>
